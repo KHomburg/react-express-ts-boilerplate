@@ -22,6 +22,13 @@ Run the following command in the root directory to start the application
 npm run dev
 ```
 
+create a db
+```bash
+docker run --name <your-app-name>  -p 5432:5432 -e POSTGRES_PASSWORD=password -e POSTGRES_DB=<your-app-name> -d postgres
+```
+
+docker run --name melo_app  -p 5432:5432 -e POSTGRES_PASSWORD=password -e POSTGRES_DB=melo_app -d postgres
+
 # Build
 
 To build a production-ready version of your application, run the command in the terminal (root folder):

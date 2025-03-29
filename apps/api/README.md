@@ -26,7 +26,7 @@ A boilerplate/template for building RestAPI's using NodeJS, TypeScript, Express
   DB_PORT=
   DB_USERNAME=
   DB_PASSWORD=
-  =DB_DATABASE
+  DB_DATABASE=
 ```
 
 ## Documentation
